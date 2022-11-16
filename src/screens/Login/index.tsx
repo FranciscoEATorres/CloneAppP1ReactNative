@@ -10,11 +10,10 @@ export const Login = () => {
 
   return (
     <View style={styles.container}>
-      
       <View style={styles.topBar}>
         <Image style={styles.image} source={LogoPrivalia} />
         <Ionicons
-          style={styles.icone}
+          style={styles.iconem}
           name="person-outline"
           size={25}
           color="black"
@@ -46,6 +45,12 @@ export const Login = () => {
       <TouchableOpacity style={styles.button2}>
         <Text style={styles.buttonText2}>Crie uma conta</Text>
       </TouchableOpacity>
+
+      <Text style={styles.footer}>O que é a Privalia  |  Relações com Investidores</Text>
+      <Text style={styles.footer}>Privacidade   |   Cookies   |   Condições de uso</Text>
+      <Text style={styles.footerFim}>Copyright ₢ Privalia Brasil S.A.2008-2021  
+                                    Av Prof Alceu Maynard de Araújo, 698 CEP 04726-160
+                                    São Paulo/SP - CNPJ 10.464.223/0001-63</Text>
     </View>
   );
 };
